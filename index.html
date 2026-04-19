@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="border-b">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <h1 class="text-xl font-bold">MyBrand</h1>
+      <nav class="hidden md:flex gap-6 text-sm font-medium">
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#services" class="hover:text-blue-600">Services</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+      <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700">
+        Get Started
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="py-20">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      
+      <div>
+        <p class="text-blue-600 font-semibold mb-3">Modern Landing Page</p>
+        <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          Build Your Business Website Fast
+        </h2>
+        <p class="text-gray-600 mb-8">
+          Professional landing page for your business, startup, or personal brand.
+          Fast loading, responsive, and modern design.
+        </p>
+
+        <div class="flex gap-4">
+          <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700">
+            Start Now
+          </a>
+          <a href="#about" class="border px-6 py-3 rounded-xl hover:bg-gray-100">
+            Learn More
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <img 
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
+          class="rounded-2xl shadow-lg"
+          alt="Website Preview"
+        />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="services" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-4">Our Services</h3>
+      <p class="text-gray-600 mb-12">Everything you need to launch online.</p>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-white p-8 rounded-2xl shadow-sm">
+          <h4 class="text-xl font-semibold mb-3">Responsive Design</h4>
+          <p class="text-gray-600">Looks perfect on mobile, tablet, and desktop.</p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-sm">
+          <h4 class="text-xl font-semibold mb-3">Fast Performance</h4>
+          <p class="text-gray-600">Optimized for speed and smooth experience.</p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-sm">
+          <h4 class="text-xl font-semibold mb-3">Easy Deployment</h4>
+          <p class="text-gray-600">Ready to deploy on GitHub Pages or hosting.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="contact" class="py-20">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-4">Ready to Grow Your Business?</h3>
+      <p class="text-gray-600 mb-8">
+        Get your modern landing page today.
+      </p>
+
+      <a href="mailto:your@email.com" class="bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-blue-700">
+        Contact Now
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t py-6">
+    <div class="max-w-6xl mx-auto px-6 text-sm text-gray-500 text-center">
+      © 2026 MyBrand. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
